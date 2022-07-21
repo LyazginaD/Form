@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Регистрация</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="card form-wrap">
-        <h2>Регистрация</h2>
-        <form method="post" action="form.php">
-            <div>
-                <label for="email">E-mail</label>
-                <input type="email" name="email" required>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="card form-wrap">
+            <h2>Регистрация</h2>
+            <form method="post" action="form.php">
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" placeholder="Введите вашу почту" name="email" required>
+                </div>
+                <div>
+                    <label for="password">Пароль</label>
+                    <input type="text" placeholder="Введите пароль"name="name" required>
             </div>
+                <div>
+                    <label for="password">Пароль</label>
+                    <input type="text" placeholder="Повторите пароль" name="name" required>
+                </div>
+            </form>
+            <button class="card bttn" type="submit">
+                <h1>Зарегистрироваться</h1>
+            </button>
             <div>
-                <label for="password">Пароль</label>
-                <input type="text" name="name" required>
+                <p>
+                    Уже есть учётная запись?
+                </p>
+            </div>        
+            <div><p> 
+                <a href="Авторизация.html"target="_blank">Авторизоваться</a></p>
             </div>
-             
-        </form>
-        <button class="card bttn" type="submit">
-            <h1>Зарегистрироваться</h1>
-        </button>
-    </div>
-</body>
+        </div>
+    </body>
 </html>
