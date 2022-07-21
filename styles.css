@@ -18,22 +18,22 @@ body {
     padding: 1% 0%;
     margin-bottom: 0vw;
     border-radius: 2vw;
-    width: 280px; 
+    width: 600px; 
     margin-left: auto;
     margin-right: auto;
     background: rgb(209, 208, 207); 
-    font-size: 60%;
+    font-size: 100%;
     display: block;
 
 }
 input,
 textarea {
-    padding: 1vw;
-    width: 260px;
+    padding: 1.5vw;
+    width: 220px;
     margin-left: auto;
     margin-right: auto;
     background-color:  rgb(209, 208, 207);
-    border-bottom: 5px solid rgb(116, 106, 103);
+    border-bottom: 20px solid rgb(116, 106, 103);
     color: rgb(116, 106, 103);
     border-color: rgb(114, 103, 99);
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
@@ -41,7 +41,7 @@ textarea {
     font-family: inherit;
 }
 button {
-    width: 200px;
+    width: 400px;
     margin: 0;
     display: block;
     margin-left: auto;
@@ -49,11 +49,12 @@ button {
     background-color: rgb(219, 219, 218);
     color: rgb(116, 106, 103);
     border-color: rgb(99, 90, 87);
-    border-radius: 15px;
+    border-radius: 30px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     border: 2px;
     font-family: inherit;
-    font-size:40%;  
+    font-size:100%;  
+
 }
 button:hover {
     background:  rgb(209, 208, 207);
@@ -64,10 +65,10 @@ input[type="text"], input[type="email"] {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2vw;
-  width: 80%;
+  width: 75%;
   padding: 1vw;
   background: #e6e6e6;
-  border-radius: 10px;
+  border-radius: 30px;
   font-size:60%;
   color: rgb(99, 90, 87);
 }
@@ -97,10 +98,13 @@ label {
     margin: 4vw 0vw 10vw 1vw ;
 
 }
+h1{
+    font-size: 120%; 
+}
 p1 {
     margin: 8%
 }
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 600px) {
     .card {
       width: 100%;
       float: none;
