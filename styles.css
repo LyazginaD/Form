@@ -76,7 +76,6 @@ input[type="text"]:focus, input[type="email"]:focus {
 }
 p {
     color:rgb(99, 90, 87);
-    text-decoration:none;
     font-size: 80%;
     margin-left: auto;
     margin-right: auto; 
@@ -95,8 +94,8 @@ h2{
     font-size: 180%; 
 }
 label {
-    margin: 4vw 0vw 0vw 1vw ;
-    border-top: 1vw;
+    margin: 4vw 0vw 10vw 1vw ;
+
 }
 p1 {
     margin: 8%
