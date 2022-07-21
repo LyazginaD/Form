@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family&display=swap');
 
 /** {
     padding: 0;
@@ -10,7 +10,7 @@ body {
     color: rgb(99, 90, 87);
     font-size: 18px;
     font-weight: normal;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding: 1vw, 3vw;
     height:auto;
 }
@@ -32,9 +32,11 @@ textarea {
     width: 260px;
     margin-left: auto;
     margin-right: auto;
-    border: none;
+    background-color:  rgb(209, 208, 207);
     border-bottom: 5px solid rgb(116, 106, 103);
     color: rgb(116, 106, 103);
+    border-color: rgb(114, 103, 99);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     outline: none;
     font-family: inherit;
 }
@@ -44,13 +46,17 @@ button {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: rgb(219, 219, 218);
     color: rgb(116, 106, 103);
-    border-color: rgb(116, 106, 103);
-    border-radius: 2vw;
+    border-color: rgb(99, 90, 87);
+    border-radius: 15px;
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border: 2px;
     font-family: inherit;
-    font-size:40%
-    
+    font-size:40%;  
+}
+button:hover {
+    background:  rgb(209, 208, 207);
 }
 input[type="text"], input[type="email"] {
   border-width: 0;
@@ -61,7 +67,7 @@ input[type="text"], input[type="email"] {
   width: 80%;
   padding: 1vw;
   background: #e6e6e6;
-  border-radius: 1vw;
+  border-radius: 10px;
   font-size:60%;
   color: rgb(99, 90, 87);
 }
@@ -79,15 +85,14 @@ p {
 a {
     color:rgb(99, 90, 87);
     text-decoration:underline;
-    font-size: 150%;
-    padding-bottom: 3vw;
+    font-size: 120%;
+    padding-bottom: 4vw;
     text-align: center;
 }
 h2{
     text-align: center; 
     margin: 20px 0vw 20px 0vw; 
     font-size: 180%; 
-    text-decoration: double;
 }
 label {
     margin: 4vw 0vw 0vw 1vw ;
