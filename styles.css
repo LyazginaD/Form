@@ -108,12 +108,16 @@ p1 {
     .card {
       width: 100%;
       float: none;
+      padding: 1vw;
     }
     button {
         width: 80%;
-        float: none;
+        float:none;
+        padding: -10vw;
+        font-size:80%;  
+        margin-left: 6vw;
     }
     body {
-        font-size: 12px;
+        font-size: 18px;
     }
 }
